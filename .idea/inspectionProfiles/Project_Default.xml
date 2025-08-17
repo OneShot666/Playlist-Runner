@@ -1,0 +1,55 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E501" />
+          <option value="E722" />
+          <option value="E741" />
+          <option value="E117" />
+          <option value="E127" />
+          <option value="E222" />
+          <option value="W605" />
+          <option value="E116" />
+          <option value="E114" />
+          <option value="E401" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N801" />
+          <option value="N802" />
+          <option value="N806" />
+          <option value="N803" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyShadowingBuiltinsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredNames">
+        <list>
+          <option value="min" />
+          <option value="max" />
+          <option value="map" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyStatementEffectInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="tkinter.Canvas.create_circle" />
+          <option value="tkinter.Canvas.create_circle_arc" />
+          <option value="setuptools.extern.more_itertools" />
+          <option value="time.time.perf_counter" />
+          <option value="tkinter.Image.open" />
+          <option value="str.render" />
+          <option value="pygame.sprite.Sprite.feet" />
+          <option value="pygame.sprite.Sprite.move_back" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
