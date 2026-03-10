@@ -1,4 +1,0 @@
-ceci est un texte
-en plusieurs lignes !
-
-ui
